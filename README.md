@@ -320,6 +320,7 @@ Follow [README](https://d13321s3lxgewa.cloudfront.net/downloads/wrsdk-vxworks7-d
 Copy the content of the `deploy` directory to the '/usr' directory of the SD Card
 
 ```bash
+$ cd ~/vxworks7-ros2-build
 $ sudo cp -r -L ./output/export/deploy/* /media/dave/boot/usr/.
 ```
 
