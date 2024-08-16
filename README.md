@@ -317,10 +317,10 @@ telnet 192.168.200.1
 ### Raspberry Pi 4
 
 Follow [README](https://d13321s3lxgewa.cloudfront.net/downloads/wrsdk-vxworks7-docs/2309/README_raspberrypi4b.html) to deploy VxWorks on the SDCard.
-Copy the content of the `deploy` directory to the '/usr' directory of the SDCard
+Copy the content of the `deploy` directory to the '/usr' directory of the SD Card
 
 ```bash
-$ sudo cp -r -L ./output/export/deploy/* /media/dave/usr/.
+$ sudo cp -r -L ./output/export/deploy/* /media/dave/boot/usr/.
 ```
 
 ### Run ROS 2 C++ examples
