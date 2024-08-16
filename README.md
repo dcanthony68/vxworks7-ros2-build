@@ -321,6 +321,7 @@ Copy the content of the `deploy` directory to the '/usr' directory of the SD Car
 
 ```bash
 $ cd ~/vxworks7-ros2-build
+$  [verify this, migth not be exactly right, but seems to match working SD card] mkdir /media/dave/boot/usr
 $ sudo cp -r -L ./output/export/deploy/* /media/dave/boot/usr/.
 ```
 
