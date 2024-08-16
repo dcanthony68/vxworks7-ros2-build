@@ -320,7 +320,7 @@ Follow [README](https://d13321s3lxgewa.cloudfront.net/downloads/wrsdk-vxworks7-d
 Copy the content of the `deploy` directory to the '/usr' directory of the SDCard
 
 ```bash
-$ sudo cp -r -L ./output/export/deploy/* /usr/.
+$ sudo cp -r -L ./output/export/deploy/* /media/dave/usr/.
 ```
 
 ### Run ROS 2 C++ examples
