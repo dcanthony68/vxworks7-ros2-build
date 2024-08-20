@@ -329,6 +329,7 @@ $ mv lib ..
 $ cp ~/CVCStartup/usr_vxscript .
 $ cp ~/CVCStartup/usr_vxscript_secure .
 $ cp ~/CVCStartup/vxscript .
+$ cp -r ~/CyberSummitDemo2024/sros2_demo .
 ```
 
 ### Run ROS 2 C++ examples
