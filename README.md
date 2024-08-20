@@ -326,9 +326,9 @@ $ cd ~/vxworks7-ros2-build/output/deploy
 $ sudo cp -r -L * /media/dave/boot/usr/.
 $ cd /media/dave/boot/usr
 $ mv lib ..
-$ cp ~/CVCStartup/usr_vxscript .
-$ cp ~/CVCStartup/usr_vxscript_secure .
-$ cp ~/CVCStartup/vxscript .
+$ cp ~/CVCstartup/usr_vxscript .
+$ cp ~/CVCstartup/usr_vxscript_secure .
+$ cp ~/CVCstartup/vxscript .
 $ cp -r ~/CyberSummitDemo2024/sros2_demo .
 ```
 
