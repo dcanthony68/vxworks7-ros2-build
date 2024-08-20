@@ -320,9 +320,15 @@ Follow [README](https://d13321s3lxgewa.cloudfront.net/downloads/wrsdk-vxworks7-d
 Copy the content of the `deploy` directory to the '/usr' directory of the SD Card
 
 ```bash
-$ cd ~/vxworks7-ros2-build
-$  [verify this, migth not be exactly right, but seems to match working SD card] mkdir /media/dave/boot/usr
-$ sudo cp -r -L ./output/export/deploy/* /media/dave/boot/usr/.
+$ cd /media/dave/boot
+$ mkdir usr
+$ cd ~/vxworks7-ros2-build/output/deploy
+$ sudo cp -r -L * /media/dave/boot/usr/.
+$ cd /media/dave/boot/usr
+$ mv lib ..
+$ cp ~/CVCStartup/usr_vxscript .
+$ cp ~/CVCStartup/usr_vxscript_secure .
+$ cp ~/CVCStartup/vxscript .
 ```
 
 ### Run ROS 2 C++ examples
