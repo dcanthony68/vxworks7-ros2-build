@@ -325,7 +325,6 @@ $ mkdir usr
 $ cd ~/vxworks7-ros2-build/output/deploy
 $ sudo cp -r -L * /media/dave/boot/usr/.
 $ cd /media/dave/boot/usr
-$ mv lib ..
 $ cp ~/CVCstartup/usr_vxscript .
 $ cp ~/CVCstartup/usr_vxscript_secure .
 $ cp ~/CVCstartup/vxscript .
