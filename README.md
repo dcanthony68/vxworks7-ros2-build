@@ -187,7 +187,7 @@ tar -xvzf ~/Downloads/wrsdk-vxworks7-aptiv_cvc131_25042024.tgz --strip 1
 ### Run Docker image
 
 ```bash
-cd vxworks7-ros2-build
+cd ~/vxworks7-ros2-build
 docker run -ti -h vxros2 -v ~/Downloads/wrsdk:/wrsdk -v $PWD:/work vxros2build:humble
 ```
 
