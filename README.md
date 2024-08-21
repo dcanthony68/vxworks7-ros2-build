@@ -180,11 +180,12 @@ wget https://d13321s3lxgewa.cloudfront.net/wrsdk-vxworks7-raspberrypi4b-1.6.tar.
 mkdir ~/Downloads/wrsdk && cd ~/Downloads/wrsdk
 tar -jxvf ~/Downloads/wrsdk-vxworks7-raspberrypi4b-1.6.tar.bz2 --strip 1
 
+```
+
 For CVC 131
 ```bash
 tar -xvzf ~/Downloads/wrsdk-vxworks7-aptiv_cvc131_25042024.tgz --strip 1 
 
- 
 ```
 
 ### Run Docker image
